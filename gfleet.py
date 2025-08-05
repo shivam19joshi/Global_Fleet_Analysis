@@ -12,7 +12,7 @@ st.title("✈️ Global Aircraft Fleet Explorer")
 # Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../DataSets/Global_Fleet.csv")
+    df = pd.read_csv("Global_Fleet.csv")
     return df
 
 df = load_data()
