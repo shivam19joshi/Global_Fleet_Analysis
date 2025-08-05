@@ -9,7 +9,7 @@ st.set_page_config(page_title="🌍 Global Fleet Explorer", layout="wide")
 # Load data with caching
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Global_Fleet.csv")
+    df = pd.read_csv("Fleet_Reg.csv")
     return df
 
 df = load_data()
